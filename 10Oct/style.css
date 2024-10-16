@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.search button{
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.head-nav {
+    background-color: #9f9a9a;
+    opacity: 0.4;
+    position: sticky;
+    display: flex;
+    justify-content:space-between;
+}
+.head-nav button {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.head-nav button:hover{
+    background-color: #9f9a9a;
+}
+.search button:hover{
+    background-color: rgb(215, 88, 88);
+}
+/* .head-nav button img {
+    width: 24px;
+    height: 24px;
+} */
+
+.hero {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.hero-text h1 {
+    font-size: 1.2rem;
+}
+.about {
+    padding: 2rem;
+    text-align: center;
+    height: 2000px;
+}
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+.first-div{
+    background-image: url("parallax1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.div-second{
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 20rem;
+    align-items: center;
+}
+.paras{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+.paras p{
+    margin-bottom: 20px;
+}
+.div-second h2{
+    margin-bottom: 10px;
+}
+.level1{
+    font-size: 4rem;
+}
+.profile {
+    margin: 0 auto;
+    padding: 20px 20rem;
+    text-align: center;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8%;
+    margin-right: 20px;
+  }
+  
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+.profile-bio {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 400px;
+  }
+  
+.skills {
+    text-align: left;
+  }
+  
+.skill {
+    margin: 10px 0;
+  }
+  
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+  }
+  
+.skill-bar {
+    background-color: #4caf50;
+    height: 100%;
+  }
+.skills-section {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.portfolio-title {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio-title h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #a99e9e;
+}
+
+.stats div {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.my-work {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.my-work h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.my-work p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.load-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #555;
+}
+.my-work{
+    background-color: #9f9a9a;
+}
